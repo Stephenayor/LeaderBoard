@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/launch2"
+    tools:context=".ProjectSubmission">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/gads_header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/project_submission"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginHorizontal="70dp"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/first_name"
+        android:hint="@string/first_name"
+        android:textColorHint="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"
+        />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/Last_name"
+            android:hint="@string/last_name"
+            android:textColorHint="@color/cardview_light_background"
+            android:backgroundTint="@color/cardview_light_background"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:id="@+id/submit_email"
+        android:textColorHint="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"
+        android:layout_marginLeft="50dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/project_github_link"
+        android:id="@+id/editTextProjectLink"
+        android:textColorHint="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Submit_Project_button"
+        android:text="@string/submit2"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results"
+        android:id="@+id/textViewResults"/>
+</LinearLayout>

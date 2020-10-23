@@ -74,11 +74,6 @@ public class RetroLeaders {
         this.score = score;
 
     }
-
-
-
-
-
     public String getName() {
 
         return name;

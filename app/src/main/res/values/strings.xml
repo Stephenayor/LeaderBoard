@@ -9,4 +9,11 @@
     <string name="tab_label2">Skill IQ Leaders</string>
     <string name="badge">Badge</string>
     <string name="pharis_muigai">Pharis Muigai</string>
+    <string name="submitbutton">Submit</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="project_github_link">Project/Github Link</string>
+    <string name="submit2">Submit</string>
 </resources>
